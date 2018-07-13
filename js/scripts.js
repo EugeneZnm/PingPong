@@ -1,14 +1,14 @@
 //BUSINESS END LOGIC
-function(newNumber, result) {
+function(newNumber) {
     for (var y = 0; y <= newNumber; y++) {
         if ((y % 3 === 0) && (y % 5 === 0)) {
-            return ("ping pong");
+            $("#result").append("ping pong");
         } else if (y % 3 === 0) {
-            return ("ping");
+            $("#result").append("ping");
         } else if (y % 5 === 0) {
-            return ("pong");
+            $("#result").append("pong");
         } else {
-            return (y);
+            $("#result").append(y);
         }
     }
 
@@ -17,11 +17,11 @@ function(newNumber, result) {
 
 //USER INTERFACE LOGIC
 $(document).ready(function() {
-    $("form#firstForm").click(function(event) {
+    $("#firstForm").click(function(event) {
         event.preventDefault();
         var newNumber = $("input#numberInput").val();
         var result = play(y);
-        $("ul#result").append("<li>" + "The result is" + result + "</li>")
+        $("#result").append("<li>" + "The result is" + result + "</li>")
 
     });
 });

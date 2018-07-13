@@ -2,7 +2,7 @@
 var player;
 
 function play() {
-    for (var y = 0; y <= newNumber; y++) {
+    for (var y = 0; y <= player; y++) {
         if ((y % 3 === 0) && (y % 5 === 0)) {
             $("#result").append("<li>ping pong</li>");
         } else if (y % 3 === 0) {
@@ -19,11 +19,12 @@ function play() {
 
 //USER INTERFACE LOGIC
 $(document).ready(function() {
-    $("#firstForm").click(function(event) {
-        event.preventDefault();
-        var newNumber = $("input#numberInput").val();
+    $("form").submit(function() {
+        player = $("number").val();
+        $("#result").text('');
         play();
-        $("#result").append("<li>" + "The result is" + result + "</li>")
+        $("number#numberInput").val()
+        event.preventDefault();
 
     });
 });

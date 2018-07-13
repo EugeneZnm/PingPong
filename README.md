@@ -20,6 +20,10 @@
 * BOOTSTRAP
 * Jquery
 
+##Link to Project
+
+* https://eugeneznm.github.io/PingPong/
+
 ##Author
 
 * Eugene Nzioki Mutiso

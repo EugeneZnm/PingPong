@@ -1,5 +1,5 @@
 //BUSINESS END LOGIC
-var play = function(newNumber) {
+function(newNumber, result) {
     for (var y = 0; y <= newNumber; y++) {
         if ((y % 3 === 0) && (y % 5 === 0)) {
             return ("ping pong");
@@ -10,7 +10,6 @@ var play = function(newNumber) {
         } else {
             return (y);
         }
-
     }
 
 }

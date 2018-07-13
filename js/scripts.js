@@ -1,5 +1,6 @@
 //BUSINESS END LOGIC
-function(newNumber) {
+
+function play() {
     for (var y = 0; y <= newNumber; y++) {
         if ((y % 3 === 0) && (y % 5 === 0)) {
             $("#result").append("ping pong");
@@ -20,7 +21,7 @@ $(document).ready(function() {
     $("#firstForm").click(function(event) {
         event.preventDefault();
         var newNumber = $("input#numberInput").val();
-        var result = play(y);
+        play();
         $("#result").append("<li>" + "The result is" + result + "</li>")
 
     });

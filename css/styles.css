@@ -9,3 +9,18 @@
     background-color: burlywood;
     height: 200px;
 }
+
+.section2 {
+    background-color: gray;
+    height: 500px;
+}
+
+.sidebar {
+    background-color: lightgreen;
+    float: left;
+    width: 30%;
+    margin: 2em;
+    border-style: solid;
+    border-color: white;
+    text-align: center;
+}

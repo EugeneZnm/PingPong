@@ -1,6 +1,11 @@
 .text1 {
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 37%;
+}
+
+.section1 {
     background-color: burlywood;
     height: 200px;
-    text-align: centre;
-    position: relative;
 }

@@ -12,7 +12,7 @@
 
 .section2 {
     background-color: gray;
-    height: 500px;
+    height: 1000px;
 }
 
 .sidebar {
@@ -43,7 +43,7 @@
 
 .section3 {
     position: relative;
-    top: 20%;
+    top: 60%;
     margin-top: 3em;
 }
 
@@ -51,4 +51,10 @@
     position: relative;
     top: 20%;
     margin-top: 1em;
+}
+
+.sect {
+    margin-top: 8em;
+    position: relative;
+    left: 33%;
 }

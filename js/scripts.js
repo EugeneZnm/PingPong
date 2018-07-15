@@ -10,7 +10,7 @@ function play() {
         } else if (y % 5 === 0) {
             $("#result").append("<li>pong</li>");
         } else {
-            $("#result").append("<li>y</li>");
+            $("#result").append("<li>" + y + "</li>");
         }
     }
 
@@ -19,12 +19,14 @@ function play() {
 
 //USER INTERFACE LOGIC
 $(document).ready(function() {
-    $("form").submit(function() {
-        player = $("number").val();
+    $("#btnFirst").click(function() {
+        player = $("#Input1").val();
         $("#result").text('');
         play();
-        $("number#numberInput").val()
+        $("#Input1").val()
         event.preventDefault();
-
     });
+
+
+
 });

@@ -22,6 +22,8 @@
     float: left;
     width: 30%;
     margin: 2em;
+    margin-top: 3.8em;
+    margin-left: 10em;
     border-style: solid;
     border-color: white;
     text-align: center;
@@ -45,7 +47,7 @@
 
 .section3 {
     position: relative;
-    top: 60%;
+    top: 40%;
     margin-top: 3em;
 }
 
@@ -56,9 +58,9 @@
 }
 
 .sect {
-    margin-top: 8em;
+    margin-top: 3em;
     position: relative;
-    left: 33%;
+    left: 5%;
 }
 
 ul {
@@ -71,4 +73,13 @@ ul {
     position: relative;
     top: 25%;
     left: 20%;
+}
+
+.two {
+    width: 600px;
+}
+
+.three {
+    position: relative;
+    top: 5%;
 }

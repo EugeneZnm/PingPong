@@ -12,7 +12,7 @@
 
 <body>
     <div class="section1">
-        <div class="card">
+        <div class="card one">
             <div class="card-header">
                 <h1 class=" card-title text1">LET'S PLAY PING PONG</h1>
             </div>
@@ -32,26 +32,32 @@
                 </div>
             </div>
         </div>
-        <h4 class="text2"><strong>Let's Play!</strong></h4>
-        <div class="rules">
-            <h5>Rules:</h5>
-            <p>Ping Pong will count up to your number from 1 with the following exceptions:<br/>
-                <ol class="list1">
-                    <li>Numbers divisible by 3 become "ping"</li>
-                    <li>Numbers divisible by 5 become "pong"</li>
-                    <li>NUmbers divisible by 3 and 5 become"pingpong"</li>
-                </ol>
-            </p>
-        </div>
         <div>
-            <form class="sect">
-                <div class="form section3">
-                    <label class="input-label" for="input1"><strong>Enter Number Here</strong></label>
-                    <input type="number" id="Input1">
-                    <button type="click" id="btnFirst">Ping Pong</button>
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="text2"><strong>Let's Play!</strong></h4>
                 </div>
+                <div class="card-body rules">
+                    <h5 class="card-subtitle">Rules:</h5>
+                    <p class="card-text">Ping Pong will count up to your number from 1 with the following exceptions:<br/>
+                        <ol class="list1">
+                            <li>Numbers divisible by 3 become "ping"</li>
+                            <li>Numbers divisible by 5 become "pong"</li>
+                            <li>NUmbers divisible by 3 and 5 become"pingpong"</li>
+                        </ol>
+                    </p>
+                </div>
+            </div>
+            <div>
+                <form class="sect">
+                    <div class="form section3">
+                        <label class="input-label" for="input1"><strong>Enter Number Here</strong></label>
+                        <input type="number" id="Input1">
+                        <button type="click" id="btnFirst">Ping Pong</button>
+                    </div>
 
-            </form>
+                </form>
+            </div>
         </div>
 
         <ul id="result"></ul>

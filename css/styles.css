@@ -1,8 +1,10 @@
 .text1 {
     text-align: center;
-    color: white;
+    color: black;
     position: relative;
-    top: 37%;
+    top: 40%;
+    width: 800px;
+    height: 100px;
 }
 
 .section1 {
@@ -62,4 +64,11 @@
 ul {
     position: relative;
     left: 33%;
+}
+
+.one {
+    width: 800px;
+    position: relative;
+    top: 25%;
+    left: 20%;
 }

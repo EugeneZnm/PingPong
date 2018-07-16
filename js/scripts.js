@@ -26,7 +26,4 @@ $(document).ready(function() {
         $("#Input1").val()
         event.preventDefault();
     });
-
-
-
 });

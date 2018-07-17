@@ -1,8 +1,11 @@
 .text1 {
     text-align: center;
-    color: white;
+    color: black;
     position: relative;
-    top: 37%;
+    top: 50%;
+    left: 25%;
+    width: 800px;
+    height: 100px;
 }
 
 .section1 {
@@ -12,7 +15,7 @@
 
 .section2 {
     background-color: gray;
-    height: 500px;
+    height: 1000px;
 }
 
 .sidebar {
@@ -20,6 +23,8 @@
     float: left;
     width: 30%;
     margin: 2em;
+    margin-top: 3.8em;
+    margin-left: 10em;
     border-style: solid;
     border-color: white;
     text-align: center;
@@ -43,7 +48,7 @@
 
 .section3 {
     position: relative;
-    top: 20%;
+    top: 50%;
     margin-top: 3em;
 }
 
@@ -51,4 +56,31 @@
     position: relative;
     top: 20%;
     margin-top: 1em;
+}
+
+.sect {
+    margin-top: 7em;
+    position: relative;
+    left: 45%;
+}
+
+ul {
+    position: relative;
+    left: 45%;
+}
+
+.one {
+    width: 800px;
+    position: relative;
+    top: 25%;
+    left: 20%;
+}
+
+.two {
+    width: 600px;
+}
+
+.three {
+    position: relative;
+    top: 5%;
 }

@@ -25,6 +25,5 @@ $(document).ready(function() {
         play();
         $("#Input1").val();
         event.preventDefault();
-
     });
 });
